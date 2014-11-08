@@ -28,13 +28,24 @@ function validateNumber(){
     }
     var product = Number(entry) * Number(entry2);
     alert(entry + " multiplied by " + entry2 + " equals " + product + ".");
-    alert("Let's do some other stuff with the first number you chose (" + entry +").");
+    alert("Let's do some other stuff with the first number you entered (" + entry +").");
     if(entry.length == 1){
         var plural = "digit"
-    }else if(entry.length == 2){
+    }else if(entry.length > 1){
         var plural = "digits"
     }
-    alert("We know that " + entry + " consists of " + entry.length + " " + plural + ".")
+    alert("We know that " + entry + " consists of " + entry.length + " " + plural + ".");
+    if(entry.length == 1){
+        var add = prompt("Since 1 isn't that interesting of a number to work with, enter a number to add to 1.");
+        var sum = Number(add) + 1;
+        var entry = sum;
+        alert("Okay, great. So, " + entry + " is the number that we will be working with.");
+    }else{
+        var entry = entry.length
+    }
+    var multiplier = prompt("now, please enter a number to multiply " + entry + " by.");
+    var times = multiplier * entry;
+    alert(entry + " multiplied by " + multiplier + " equals " + times + ".");
 }
 validateNumber();
 
