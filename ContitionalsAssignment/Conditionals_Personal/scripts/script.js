@@ -37,6 +37,10 @@ function validateNumber(){
     alert("We know that " + entry + " consists of " + entry.length + " " + plural + ".");
     if(entry.length == 1){
         var add = prompt("Since 1 isn't that interesting of a number to work with, enter a number to add to 1.");
+        if(add = 1){
+            alert("We want a number other than 1. Let's start from the beginning.")
+            validateNumber()
+        }
         var sum = Number(add) + 1;
         var entry = sum;
         alert("Okay, great. So, " + entry + " is the number that we will be working with.");
