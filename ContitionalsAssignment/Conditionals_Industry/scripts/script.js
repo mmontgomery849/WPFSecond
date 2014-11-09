@@ -14,7 +14,7 @@ function task() {
         alert("You stated that your display is taller than it is wide. This is highly unlikely. Let's start from the beginning.");
         task();
     }else if(height.length == 0 || length.length == 0){
-        alert("One of your entries was blank. Let's start from the beginning.");
+        alert("At least one of your entries was blank. Let's start from the beginning.");
         task();
     }
         var inches = prompt("Thanks, again! Please enter the number of inches that your screen is:");
