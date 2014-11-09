@@ -5,7 +5,8 @@
     alert("Thank you for visiting my page!");//greeting
     alert("In the technology industry, screen and digital image quality are increasingly important factors");
     alert("You can use this tool to calculate the PPI or pixel density of a digital display");
-    //obtain screen dimensions from user input and assign variables to given values
+    //obtain screen dimensions from user input and assign variables to user-given values
+//also create function in the even we repeat code from this step.
 function task() {
     var height = prompt("Start by entering the number of pixels that your screen is high:");
     var length = prompt("Got it; thanks! Now, enter the number of pixels that your screen is wide:");
