@@ -28,3 +28,4 @@ task();
 //logical operators
 //prompt and alert
 //length object
+//document write
