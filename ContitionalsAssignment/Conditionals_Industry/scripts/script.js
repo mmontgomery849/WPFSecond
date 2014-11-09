@@ -24,3 +24,7 @@ function task() {
     document.write("Since your display is " + height + " pixels high and " + length + " pixels wide, the pixel density of your display is " + ppi + ".");
 }
 task();
+//uses if/else if statements
+//logical operators
+//prompt and alert
+//length object
