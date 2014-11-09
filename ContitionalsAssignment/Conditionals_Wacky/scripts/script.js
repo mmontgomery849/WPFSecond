@@ -12,5 +12,6 @@ var ipad = prompt("Finally, how many iPads and iPods do you own?");
 //perform calculation to determine how many apple devices Ted owns
 var yourTotal = Number(iphone) + Number(mac) + Number(appTV) + Number(ipad);
 var tedsApples = yourTotal + 1;//could also use ++ operator
+//show result of calculation to end user and push to console.
 alert("You're not going to believe this. You own " + yourTotal + " Apple devices, and guess how many Ted says he owns: " + tedsApples + "! I think Ted might be a habitual liar.");
 console.log("It's no surprise that Ted claims to have " + tedsApples + " Apple devices upon hearing that you have " + yourTotal + " Apple devices. That's just the type of person Ted is.")
