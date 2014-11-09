@@ -9,6 +9,7 @@ var iphone = prompt("How many iPhones do you own?");
 var mac = prompt("Okay, now how many Mac computers do you own?");
 var appTV = prompt("Enter the number of Apple TV's  you own:");
 var ipad = prompt("Finally, how many iPads and iPods do you own?");
+//perform calculation to determine how many apple devices Ted owns
 var yourTotal = Number(iphone) + Number(mac) + Number(appTV) + Number(ipad);
 var tedsApples = yourTotal + 1;//could also use ++ operator
 alert("You're not going to believe this. You own " + yourTotal + " Apple devices, and guess how many Ted says he owns: " + tedsApples + "! I think Ted might be a habitual liar.");
