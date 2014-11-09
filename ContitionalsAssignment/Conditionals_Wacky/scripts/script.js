@@ -22,3 +22,7 @@ function runIt() {
     console.log("It's no surprise that Ted claims to have " + tedsApples + " Apple devices upon hearing that you have " + yourTotal + " Apple devices. That's just the type of person Ted is.");
 }
 runIt();
+//uses if/else if statements
+//logical operators
+//prompt and alert
+//length object
