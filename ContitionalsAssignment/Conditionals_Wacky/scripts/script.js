@@ -1,8 +1,10 @@
 /**
  * Created by michael on 11/9/14.
  */
+//greeting
 alert("Thanks for visiting! \n I work for Apple and my buddy Ted and I are always seeing who has a bigger collection of Apple products...");
 alert("Ted\'s a real one-upper and likes to say he has one more Apple device than me. I\'d like to see if you have more Apple devices than Ted");
+//gather variables and assign them to user-provided values
 var iphone = prompt("How many iPhones do you own?");
 var mac = prompt("Okay, now how many Mac computers do you own?");
 var appTV = prompt("Enter the number of Apple TV's  you own:");
