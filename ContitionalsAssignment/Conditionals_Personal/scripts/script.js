@@ -53,6 +53,11 @@ function validateNumber(){
 }
 validateNumber();
 
+//uses if/else if statements
+//logical operators
+//prompt and alert
+//length object
+
 
 
 
