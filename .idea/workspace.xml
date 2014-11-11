@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e6c8858-efaf-4ccb-8f7a-7ea4463062b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConditionalsWorksheet/.idea/workspace.xml" afterPath="$PROJECT_DIR$/ConditionalsWorksheet/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Worksheet/scripts/script.js" afterPath="$PROJECT_DIR$/Functions_Worksheet/scripts/script.js" />
     </list>
     <ignored path="WPFSecond.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +38,10 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_Worksheet/scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0982962" vertical-offset="0" max-vertical-offset="763">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.2948886" vertical-offset="0" max-vertical-offset="763">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <element signature="e#0#42#0" expanded="false" />
+                <element signature="n#!!doc;n#entry#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -298,10 +298,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Worksheet/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0982962" vertical-offset="0" max-vertical-offset="763">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.2948886" vertical-offset="0" max-vertical-offset="763">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#0#42#0" expanded="false" />
+            <element signature="n#!!doc;n#entry#0" expanded="false" />
           </folding>
         </state>
       </provider>
