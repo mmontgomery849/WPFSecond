@@ -7,7 +7,7 @@ function entry() {
         var rad = prompt("You did not enter anything. Please enter a number.");
 
     }while(isNaN(rad)){
-        var rad = prompt("Your entry should be all numeric. Please enter a number.");
+        var rad = prompt("Your entry should be numeric. Please enter a number.");
 
     }
     var circ = (Number(rad) * 2) * Math.PI;
@@ -26,5 +26,23 @@ function entry() {
             repeat();
         }
     }
+    function stings(){
+        var pounds = prompt("Please enter the weight of the animal in pounds to see how many bee stings it would take to kill the animal.");
+        while(pounds.length == 0){
+            var pounds = prompt("You did not enter anything. Please enter the weight of the animal in pounds");
+        }while(isNaN(pounds)){
+            var pounds = prompt("Your entry should be all numeric. Please enter the weight of the animal in pounds");
+        }
+
+        var answer = Number(pounds) / 8.666666667
+        var plurator = "sting";
+        if(answer > 1){
+            plurator = "stings"
+        }
+        alert("It takes " + Math.ceil(answer) + " bee " + plurator + " to kill this animal")
+    }
+
+
+
 }
 entry();
