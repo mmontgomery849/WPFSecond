@@ -1,6 +1,7 @@
 /**
  * Created by michael on 11/11/14.
  */
+//calculate circumference of a circle
 function entry() {
     var rad = prompt("please enter the radius of the circle to find the circumference.");
     while (rad.length == 0) {
@@ -26,6 +27,7 @@ function entry() {
             repeat();
         }
     }
+    //calculate bee stings required to kill an animal
     function stings(){
         var pounds = prompt("Please enter the weight of the animal in pounds to see how many bee stings it would take to kill the animal.");
         while(pounds.length == 0){
@@ -34,7 +36,7 @@ function entry() {
             var pounds = prompt("Your entry should be all numeric. Please enter the weight of the animal in pounds");
         }
 
-        var answer = Number(pounds) / 8.666666667
+        var answer = Number(pounds) / 8.666666667;
         var plurator = "sting";
         if(answer > 1){
             plurator = "stings"
