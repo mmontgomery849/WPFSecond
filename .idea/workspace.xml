@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e6c8858-efaf-4ccb-8f7a-7ea4463062b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Worksheet/scripts/script.js" afterPath="$PROJECT_DIR$/Functions_Worksheet/scripts/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WPFSecond.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_Worksheet/scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2555701" vertical-offset="0" max-vertical-offset="763">
-              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.13761468" vertical-offset="0" max-vertical-offset="763">
+              <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
               <folding>
                 <element signature="n#!!doc;n#entry#0" expanded="false" />
               </folding>
@@ -317,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Worksheet/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2555701" vertical-offset="0" max-vertical-offset="763">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.13761468" vertical-offset="0" max-vertical-offset="763">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
           <folding>
             <element signature="n#!!doc;n#entry#0" expanded="false" />
           </folding>
