@@ -6,11 +6,12 @@ function entry() {
     if (rad.length == 0) {
         alert("You did not enter anything. Let's try this again.");
         entry();
+    }else if(isNaN(rad)){
+        alert("Please enter a number.");
+        entry();
     }
     var circ = (Number(rad) * 2) * Math.PI;
-    return circ;
-
-
+    alert("The circumference of the circle is " + circ + ".");
     console.log("The circumference of the circle is " + circ + ".");
     document.write("The circumference of the circle is " + circ + ".");
 }
