@@ -11,8 +11,8 @@ function entry() {
 
     }
     var circ = (Number(rad) * 2) * Math.PI;
-    alert("The circumference of the circle is " + circ + ".");
-    console.log("The circumference of the circle is " + circ + ".");
-    document.write("The circumference of the circle is " + circ + ".");
+    alert("The circumference of the circle is " + Math.round(circ) + ".");
+    console.log("The circumference of the circle is " + Math.round(circ) + ".");
+    document.write("The circumference of the circle is " + Math.round(circ) + ".");
 }
 entry();
