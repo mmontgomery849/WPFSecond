@@ -27,6 +27,8 @@ function casino(){
     }while(again == null || again != "again"){
         var again = prompt("invalid entry. To spin again, type 'again");
     }
+
 }
 alert("We are going to play a slot machine simulation. Next we will have 3 random numbers between 0 and 3 generated. If they match, you win. You can play as many times as you would like.");
 casino();
+
