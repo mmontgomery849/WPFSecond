@@ -2,10 +2,13 @@
  * Created by michael on 11/12/14.
  */
 alert("Hello, and thank you for visiting my page");
+//creation of function
 function casino(){
+//generate 3 random integers between 0 and 3
     var spinnerOne = Math.floor(Math.random()*3);
     var spinnerTwo = Math.floor(Math.random()*3);
     var spinnerThree = Math.floor(Math.random()*3);
+    //use logical operators to compare functions and execute actions accordingly
     if(spinnerOne == spinnerTwo && spinnerOne == spinnerThree){
         var again = prompt(spinnerOne +" - " + spinnerTwo + " - " + spinnerThree + ". All three numbers match! You win the jackpot!! To spin again, type 'again'");
         while(again.length == 0){
